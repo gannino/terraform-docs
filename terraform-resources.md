@@ -5,6 +5,7 @@
 - [Awesome Terraform](https://github.com/shuaibiyy/awesome-terraform)
 - [Terraform Providers](https://www.terraform.io/docs/providers/index.html)
 - [Terraform Community Providers](https://www.terraform.io/docs/providers/type/community-index.html)
+- [Terraform Module: GitHub Repository](https://github.com/withmethod/terraform-github-repository)
 
 
 ## Documentation 
@@ -22,23 +23,59 @@
 - [Rolling Deploys on AWS using Terraform](https://robmorgan.id.au/posts/rolling-deploys-on-aws-using-terraform/)
 - [Secure collaborative infrastructure deployment workflow with Terraform, Vault, and Atlantis](https://blog.avatao.com/Secure-collaborative-infrastructure-deployment-workflow-with-Terraform,-Vault,-and-Atlantis/)
 - [Create a Terraform base template in Azure using Yeoman](https://docs.microsoft.com/en-us/azure/terraform/terraform-vscode-module-generator)
+- [Reddit - Test the infrastructure](https://www.reddit.com/r/devops/comments/81df6j/test_the_infrastructure/) 
 
 ## Repos 
+
+### Modules 
+
+- [terraform-aws-cross-account-role](https://github.com/azavea/terraform-aws-cross-account-role)
+- [terraform-aws-landing-zone](https://github.com/TerraHubCorp/terraform-aws-landing-zone)
+- [terraform-root-modules](https://github.com/cloudposse/terraform-root-modules)
+- [terraform-aws-secure-baseline](https://github.com/nozaq/terraform-aws-secure-baseline)
+
+### CI 
+
+- [terraform-with-circleci-example](https://github.com/fedekau/terraform-with-circleci-example)
+
 
 ### Stack 
 
 - [Segment.io Stack](https://github.com/segmentio/stack)
+
+
+### Accounts 
+
+- [Cloud Posse Accounts](https://github.com/cloudposse/terraform-root-modules/tree/master/aws/accounts)
+- [inovex/terraform-multi-account](https://github.com/inovex/terraform-multi-account)
+- [Terraform initialization of AWS sub account](https://gist.github.com/EmiiKhaos/2680108bc1f7709e81d2c62a2e4ddd00)
+- [liatrio/aws-accounts-terraform](https://github.com/liatrio/aws-accounts-terraform)
 
 ### Modules
 
 - [Terraform Module: GitHub Repository](https://github.com/withmethod/terraform-github-repository)
 - [terraform-root-modules](https://github.com/cloudposse/terraform-root-modules)
 
-### Tools
+## Tools
 
 - [python-terraform-to-ansible-inventory](https://github.com/mrlesmithjr/python-terraform-to-ansible-inventory)
 - [Jinjaform](https://github.com/claranet/jinjaform)
 
 ### Wrappers
 
-- [terragrunt]()
+- [terragrunt](https://github.com/gruntwork-io/terragrunt)
+
+
+## Testing 
+
+- [Terratest](https://github.com/gruntwork-io/terratest)
+- [kitchen-terraform](https://github.com/newcontext-oss/kitchen-terraform)
+- [awspec](https://github.com/k1LoW/awspec)
+    - RSpec tests for your AWS resources.
+- [testinfra](https://github.com/philpep/testinfra)
+    - Testinfra aims to be a Serverspec equivalent in python and is written as a plugin to the powerful Pytest test engine
+- [Rspec](https://github.com/rspec/rspec)
+- [terraform-compliance](https://github.com/eerkunt/terraform-compliance)
+
+
+
